@@ -22,7 +22,7 @@ MEDIA_DIR = os.path.join(BASE_DIR,'media')
 
 
 
-# Quick-start development settings - unsuitable for production
+# Quick-start development settings - unsuitable for productiongit add README.md
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
