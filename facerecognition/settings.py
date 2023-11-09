@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
-import django_heroku
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -31,7 +30,7 @@ SECRET_KEY = 'django-insecure-dcik%wlwkxkfuf@t0nr9*ep_%1inrnn*)uj8-i@1xm!^2@p-#6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['facialrecognition-6d17f8b35f37.herokuapp.com/','127.0.0.1:8000']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
